@@ -1,8 +1,8 @@
 # packages
 bin/
 include/
-lib/
 lib64/
+lib/
 share/
 
 # cfg
