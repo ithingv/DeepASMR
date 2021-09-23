@@ -1,4 +1,4 @@
-# packaging
+# packages
 bin/
 include/
 lib/
@@ -6,4 +6,4 @@ lib64/
 share/
 
 # cfg
-.cfg
+pyvenv.cfg
