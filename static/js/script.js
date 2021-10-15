@@ -26,6 +26,7 @@ setTimeout(init, 200);
 function init() {
     // Event listeners
     document.getElementById('btnPlay').addEventListener('click', playOrPause);
+    document.getElementById('btnFave').addEventListener('click', faveOrUnfaveSong);
 }
 
 /*
@@ -39,6 +40,19 @@ function playOrPause() {
         startPlayer();
     }
 }
+
+function faveOrUnfaveSong(event){
+    const btn = event.target;
+    if (btn.classList.contains('active')){
+        btn.classList.remove('active')
+        tagClick(EVENT.UNFAVE, true);
+        removeSongFromPlaylist(currentSongIndex);
+    } else {
+        
+
+    }
+}
+
 
 function startPlayer() {
     const state = player.getPlayState();
