@@ -4,17 +4,16 @@
 <img src='./images/img17.PNG'> </img>
 
 
-## ✔ 프로젝트 요약 
----
+## 프로젝트 요약 
+
 ### *completed*
 
-- [데이터 정의](#definition)
-- [데이터 수집](#collection)
-- [데이터 전처리](#preprocessing)
-- [생성 모델 구축](#model)
+- [데이터 정의](#data-definition)
+- [데이터 수집](#data-collection)
+- [데이터 전처리](#data-preprocessing)
+- [생성 모델 구축](#generative-model)
 - [음원 생성 및 결과](#result)
 - [공공 빅데이터 공모전 PPT 제출](#competition) 
-
 ---
 ### *In-progress*
 
@@ -26,7 +25,7 @@
 -  오디오 결합 및 합성(Audio Concatenation & Synthesis)
 ---
 
-## [데이터 정의](#definition)
+ ## [Data Definition]()
 
 <img style="margin-top: 20px" src='./images/img2.PNG'> </img>
 
@@ -38,7 +37,7 @@
 3. title - 저장할 파일명
 4. channel_url - 영상 URL
 5. publish_date - 영상 업로드일
-6. genre -  {nature, mix, tap} 로 구분 
+6. genre -  {nature, mix, tap}으로 구분 
 7. comment - 말소리 포함 유무 {포함:1, 미포함: 0}
 8. file_size - 파일 크기
 9. genre_keyword - 장르에 대한 추가적인 정보
@@ -91,7 +90,7 @@ URL: GET,
 }
 ```
 ---
-## [데이터 수집](#collection)
+## [Data Collection]()
 <img style="margin-top: 20px" src='./images/img3.PNG'> </img>
 
 *데이터 크롤링*
@@ -102,7 +101,7 @@ URL: GET,
 <img style="margin-top: 20px" src='./images/img9.PNG'> </img>
 
 ---
-## [데이터 전처리](#preprocessing)
+## [Data Preprocessing]()
 <img style="margin-top: 20px" src='./images/img4.PNG'> </img>
 
 *참고 노트북*
@@ -128,10 +127,10 @@ URL: GET,
 5. Input: Melspectrogram(2D)
 ```
 ---
-## [생성 모델 구축](#model)
+## [Generative Model]()
 
 
-### Generative Model List
+### Model List
 <img  src='./images/img10.PNG'> </img>
 
 ---
@@ -264,19 +263,20 @@ class CVAE(tf.keras.Model):
         return -tf.reduce_mean(logpx_z + logpz - logqz_x)
 ```
 ---
-## [음원 생성 및 결과](#result)
+## [Result]()
 <img style="margin-top: 20px" src='./images/img7.PNG'> </img>
 
 빗소리 음원 생성결과 url: https://www.notion.so/1d04da9a35d943ec93b52716e6b7c4ef
 
 ---
-## [공공 빅데이터 공모전 PPT 제출 완료](#competition)
+## [Competition](#competition)
 <img style="margin-top: 20px" src='./images/img16.PNG'> </img>
 <img src='./images/img15.PNG'> </img>
 
 - 홈페이지 : https://www.data.go.kr/bbs/ntc/selectNotice.do?pageIndex=1&originId=NOTICE_0000000002205&atchFileId=
 - 2021년 공공빅데이터 분석 공모전 공모(~10.15) 지원서 접수 완료
-- [최종 제출 지원서 pdf]('./docs/공공빅데이터분석_결과보고서_DeepSleepASMR.pdf')
+- [최종 제출 지원서 pdf](./docs/ASMR.pdf')
+
 
 
 
