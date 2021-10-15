@@ -275,7 +275,7 @@ class CVAE(tf.keras.Model):
 
 - 홈페이지 : https://www.data.go.kr/bbs/ntc/selectNotice.do?pageIndex=1&originId=NOTICE_0000000002205&atchFileId=
 - 2021년 공공빅데이터 분석 공모전 공모(~10.15) 지원서 접수 완료
-- [최종 제출 지원서 pdf](./docs/ASMR.pdf')
+- [최종 제출 지원서 pdf](./docs/ASMR.pdf)
 
 
 
