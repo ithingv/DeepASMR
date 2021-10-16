@@ -67,7 +67,7 @@ URL: GET,
 ```
 ---
 
-`Public Data`
+### `Public Data`
 
 ```
 ex)
