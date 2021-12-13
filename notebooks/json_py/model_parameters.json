@@ -1,0 +1,18 @@
+// {
+//     "encoder": "64",   
+//     "use_vq": true,
+//     "speaker_embedding": 64,
+//     "k": 512,
+//     "latent_dim": 64,
+//     "beta": 0.25,
+//     "wavenet_parameters": "wavenet_parameters.json",
+//     "verbose": true,
+//     "learning_rate_schedule": {
+//         "0": 0.00008,
+//         "80000": 0.00006,
+//         "160000": 0.00004,
+//         "240000": 0.00002,
+//         "320000": 0.00001,
+//         "400000": 0.000008
+//     }
+// }
