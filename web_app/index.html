@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link href="style.css" rel="stylesheet" />
+    <title>DeepASMR</title>
+    <link
+      rel="icon"
+      href="images/sleepy_icon.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <style>
+      @font-face {
+        font-family: "Pretendard-Black";
+        src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Black.woff")
+          format("woff");
+        font-weight: 900;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="well" id="well">
+      <div class="panel">
+        <div class="container">
+          <a href="/">
+          <img src="images/logo_deepasmr_yellow.png" id="logo" alt="deepasmr" />
+          </a>
+        </div>
+      </div>
+      <div class="panel">
+        <div class="container">
+          <!-- <span class="top">TOP&uarr;</span> -->
+          <div id="rain">
+            <div class="box">
+              <a href="#rain_panel" class="btn" id="0">
+                <img class="btn-img" src="images/rain_text.png" />
+              </a>
+              <canvas id="canvas0"></canvas>
+                          </div>
+            <video id="rainbg" autoplay muted loop>
+              <source src="video/Tree.mp4" type="video/mp4" />
+            </video>
+            <audio src="audio/0.wav" id="vae_rain" loop></audio>
+          </div>
+        </div>
+      </div>
+      <div id="fire_panel" class="panel">
+        <div class="container">
+          <!-- <span class="top">TOP&uarr;</span> -->
+          <div id="fire">
+            <div class="box">
+              <a href="#fire_panel" class="btn" id="1">
+                <img class="btn-img" src="images/fire_text.png" />
+              </a>
+              <canvas id="canvas1"></canvas>
+            </div>
+            <video id="firebg" autoplay muted loop>
+              <source src="video/Fireplace.mp4" type="video/mp4" />
+            </video>
+            <audio src="audio/1.wav" id="vae_fire" loop></audio>
+          </div>
+        </div>
+      </div>
+      <div id="#wave_panel" class="panel">
+        <div class="container">
+          <!-- <span class="top">TOP&uarr;</span> -->
+          <div id="wave">
+            <div class="box">
+              <a href="#wave_panel" class="btn" id="2">
+                <img class="btn-img" src="images/wave_text.png" />
+              </a>
+              <canvas id="canvas2"></canvas>
+            </div>
+            <video id="wavebg" autoplay muted loop>
+              <source src="video/Waves.mp4" type="video/mp4" />
+            </video>
+            <audio src="audio/2.wav" id="vae_wave" loop></audio>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scroll.js"></script>
+    <script src="audio-controller.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+html, body, #svg {
+    background-color: #130C0E;
+  }
+button {
+    font-size: 14px;
+    background: #130C0E;
+    color: #2c7bb6;
+    border: none;
+    outline:none;
+    padding: 4px 8px;
+    letter-spacing: 1px;
+}
+  button:hover {
+    background: #2c7bb6;
+    color: #130C0E;
+}

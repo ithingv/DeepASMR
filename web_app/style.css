@@ -1,0 +1,81 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  font-family: "Limelight", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+.well {
+  position: relative;
+  overflow: hidden;
+  transition: 1s cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+#logo {
+  width: 1200px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.panel {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  padding: 1em;
+  box-sizing: border-box;
+  color: white;
+  cursor: default;
+}
+
+/* .myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+} */
+
+.panel:nth-child(1) {
+  background-image: url("images/background/milkyway.jpg");
+  background-size: cover;
+}
+
+.container {
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-size: cover;
+}
+
+#rain,
+#fire,
+#wave {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.box {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-img {
+  height: 300px;
+  padding: 1em;
+}
+
+#rainbg,
+#firebg,
+#wavebg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
