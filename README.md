@@ -3,8 +3,8 @@
 <img style="margin-top: 20px" src='./images/img1.PNG'> </img>
 <img src='./images/img17.PNG'> </img>
 
-
 ## 프로젝트 요약 
+[프로젝트 페이지](https://deep-asmr.github.io/DeepASMR_presentation)
 
 ### *completed*
 
@@ -266,7 +266,7 @@ class CVAE(tf.keras.Model):
 ## [Result]()
 <img style="margin-top: 20px" src='./images/img7.PNG'> </img>
 
-빗소리 음원 생성결과 url: https://www.notion.so/1d04da9a35d943ec93b52716e6b7c4ef
+DeepASMR Demo url: https://deep-asmr.github.io/DeepASMR_web/
 
 ---
 ## [Competition](#competition)
